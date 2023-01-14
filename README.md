@@ -1,4 +1,4 @@
-# 0-1 Knapsack Problem in C
+# 0-1 Knapsack Problem - Dynamic Programming in C
 
 This is an implementation of the 0-1 knapsack problem in C using dynamic programming. The problem consists of a set of items, each with a weight and a value, and a knapsack with a maximum weight capacity. The goal is to determine the subset of items that maximizes the total value of the knapsack without exceeding its weight capacity.
 
