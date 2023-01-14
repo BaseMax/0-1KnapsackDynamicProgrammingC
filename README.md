@@ -13,7 +13,7 @@ To use this implementation, include the knapsack.c file in your project and call
 
 The function will return the maximum value that can be put in the knapsack without exceeding its weight capacity.
 
-```
+```c
 #include "0-1knapsack.c"
 
 int main() {
