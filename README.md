@@ -6,15 +6,15 @@ This is an implementation of the 0-1 knapsack problem in C using dynamic program
 
 To use this implementation, include the knapsack.c file in your project and call the knapSack() function with the following parameters:
 
-- W: the maximum weight capacity of the knapsack
-- wt[]: an array of weights for each item
-- val[]: an array of values for each item
-- n: the number of items
+- `W`: the maximum weight capacity of the knapsack
+- `wt[]`: an array of weights for each item
+- `val[]`: an array of values for each item
+- `n`: the number of items
 
 The function will return the maximum value that can be put in the knapsack without exceeding its weight capacity.
 
 ```
-#include "knapsack.c"
+#include "0-1knapsack.c"
 
 int main() {
     int W = 50;
@@ -23,7 +23,7 @@ int main() {
     int n = sizeof(wt)/sizeof(wt[0]);
     printf("%d", knapSack(W, wt, val, n));
 
-return 0;
+    return 0;
 }
 ```
 
