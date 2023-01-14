@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <stdio.h>
-#include <stdlib.h>
-
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 
 int knapSack(int W, int wt[], int val[], int n)
@@ -33,16 +30,4 @@ int knapSack(int W, int wt[], int val[], int n)
     free(dp);
 
     return result;
-}
-
-int main()
-{
-    int val[] = {60, 100, 120};
-    int wt[] = {10, 20, 30};
-    int W = 50;
-
-    int n = sizeof(val)/sizeof(val[0]);
-    printf("%d\n", knapSack(W, wt, val, n));
-
-    return 0;
 }
